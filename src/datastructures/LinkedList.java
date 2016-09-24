@@ -9,7 +9,7 @@ public class LinkedList {
 	 * insert at first place
 	 * @param item
 	 */
-	public void insertFirst(String item){
+	private void insertFirst(String item){
 		Node m=first;
 		Node n=new Node(item,m);
 		first=n;
@@ -19,7 +19,7 @@ public class LinkedList {
 	 * insert at Last place
 	 * @param item
 	 */
-	public void insertLast(String item){
+	private void insertLast(String item){
 		Node m=first;
 		while(m.next!=null){
 			m=m.next;
